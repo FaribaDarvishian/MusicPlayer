@@ -18,11 +18,11 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
-import android.widget.Toast;
 
+import com.example.musicplayer.fragment.AlbumFragment;
+import com.example.musicplayer.model.MusicFiles;
 import com.google.android.material.tabs.TabLayout;
 
-import java.net.URI;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
