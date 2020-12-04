@@ -2,25 +2,35 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#111111"
-    android:layout_marginTop="5dp"
-    android:id="@+id/audio_item">
+    android:layout_height="100dp"
+    android:background="@drawable/main_bg"
+android:layout_marginTop="2dp"
+    android:id="@+id/audio_items">
     <ImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:id="@+id/music_img"
-        android:background="@mipmap/ic_launcher_round"
-        android:padding="5dp"/>
+        android:padding="5dp"
+        />
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="230dp"
         android:layout_height="wrap_content"
         android:text="File Name"
-        android:layout_toEndOf="@+id/music_img"
+        android:textStyle="bold"
+        android:textColor="#FFFDFD"
+        android:layout_toEndOf="@id/music_img"
         android:layout_marginStart="10dp"
         android:layout_centerVertical="true"
-        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
         android:id="@+id/music_file_name"
         />
 
+    <ImageView
+        android:id="@+id/item_equlizer"
+        android:layout_width="56dp"
+        android:layout_height="51dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_baseline_equalizer_24"
+        android:padding="5dp" />
 </RelativeLayout>
