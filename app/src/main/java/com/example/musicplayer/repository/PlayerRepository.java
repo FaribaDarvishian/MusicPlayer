@@ -3,6 +3,8 @@ package com.example.musicplayer.repository;
 import android.media.AudioAttributes;
 import android.media.MediaPlayer;
 
+import com.example.musicplayer.model.MusicFiles;
+
 public class PlayerRepository {
 
     private static PlayerRepository sPlayerRepository;

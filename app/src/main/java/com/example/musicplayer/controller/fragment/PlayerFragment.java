@@ -18,6 +18,7 @@ import android.widget.TextView;
 
 import com.example.musicplayer.R;
 import com.example.musicplayer.Utils.MusicUtils;
+import com.example.musicplayer.model.MusicFiles;
 import com.example.musicplayer.repository.MusicRepository;
 import com.example.musicplayer.repository.PlayerRepository;
 
